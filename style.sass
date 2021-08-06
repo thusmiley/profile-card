@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap')
+
+$grey: hsl(0, 0%, 59%)
+
+*
+    box-sizing: border-box
+    padding: 0
+    margin: 0
+
+body
+    font-family: 'Kumbh Sans', sans-serif
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
+    background: url("./images/bg-pattern-top.svg") left -20vw top -20vw no-repeat, url("./images/bg-pattern-bottom.svg") right -20vw bottom -20vw no-repeat
+    background-size: 50vw
+    background-color: hsl(185, 75%, 39%)
+
+
+img
+    margin-top: -17%
+    border-radius: 100px
+    border: solid white 5px
+
+
+.container
+    background-color: #fff
+    height: 330px
+    border-radius: 10px
+
+.profile
+    height: 250px
+    width: 310px
+
+.bg        
+    background-image: url("./images/bg-pattern-card.svg") 
+    background-size: cover   
+    background-repeat: no-repeat
+    height: 50%
+    border-radius: 10px 10px 0px 0px
+
+#footer
+    display: flex
+    flex-direction: row    
+    justify-content: center
+    border-top: solid $grey 1px
+    align-items: center
+
+.stats
+    padding: 15px 20px 15px 20px    
+
+#name, .num
+    font-weight: bolder
+    margin-top: 10px
+    font-size: 18px
+
+#age
+    font-weight: lighter
+    color: $grey
+
+#city
+    font-weight: lighter
+    font-size: 13px
+    color: $grey
+    margin: 10px          
+
+.disc
+    font-weight: lighter
+    color: $grey
+    font-size: 10px
+    margin-top: 5px    
+    letter-spacing: 1px
